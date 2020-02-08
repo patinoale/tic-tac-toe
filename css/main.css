@@ -1,0 +1,39 @@
+
+body {
+    background-color: rgb(127, 215, 153);
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 200px;
+    color: rgb(227,	232, 214);
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  td {
+    width: 250px;
+    height: 250px;
+  }
+  table {
+    margin: 100px auto;
+  }
+  .column {
+    border-left: 30px solid rgb(20, 55, 100); 	
+    border-right: 30px solid rgb(20, 55, 100);
+  }
+  .row {
+    border-top: 30px solid rgb(20, 55, 100);
+    border-bottom: 30px solid rgb(20, 55, 100);
+  }
+
+
+  button {
+    font-size: 60px;
+    color: rgb(227,	232, 214);
+    border-radius: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+}
