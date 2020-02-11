@@ -12,23 +12,19 @@
 <body>
     <h1>Tic Tac Toe</h1>
     <h2>X's turn!</h2>
-    <table>
-        <tr>
-            <td></td>
-            <td class="column"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="row"></td>
-            <td class="column row"></td>
-            <td class="row"></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td class="column"></td>
-            <td></td>
-          </tr>
-      </table>
+    <div class="container columns">
+        <div class="container borders" id="gameBoard">
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+        </div>
+    
     <button id="replay">Play Again</button>
 </body>
 </html>
